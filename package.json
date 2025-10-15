@@ -1,6 +1,6 @@
 {
   "name": "captcha-canvas",
-  "version": "3.3.4",
+  "version": "3.4.0",
   "description": "A captcha generator by using skia-canvas module.",
   "main": "./dist/index.js",
   "files": [
@@ -32,7 +32,6 @@
   "homepage": "https://captcha-canvas.js.org/",
   "devDependencies": {
     "@types/node": "^14.11.8",
-    "@types/skia-canvas": "^0.9.28",
     "eslint": "^7.27.0",
     "typedoc": "^0.28.7",
     "typescript": "^5.0.2"
@@ -42,6 +41,6 @@
     "example": "examples"
   },
   "dependencies": {
-    "skia-canvas": "^1.0.2"
+    "skia-canvas": "^3.0.8"
   }
 }
