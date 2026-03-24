@@ -87,7 +87,7 @@ export function getRandomCoordinate(height: number, width: number, size: number)
 		const coordinate = [];
 		const randomWidth = widthGap * (i + 0.5);
 		coordinate.push(randomWidth);
-		const randomHeight = getRandom(30, height - 30);
+		const randomHeight = getRandom(50, height - 50);
 		coordinate.push(randomHeight);
 		coordinates.push(coordinate);
     }
